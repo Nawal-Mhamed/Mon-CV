@@ -43,19 +43,16 @@ main {
       font-size: 1rem;
     }
 
-    article div p {
+    article div p:last-of-type {
       color: var(--black);
       font-style: italic;
       font-size: 0.8rem;
-    }
-    article div span, article div p {
-      flex: 1 1 300px;
+      flex-basis: 400px;
     }
 
-    article div .time {
+    .time {
       color: var(--blue);
       font-style: normal;
-      justify-items: flex-end;
     }
 
       article div .time p {
