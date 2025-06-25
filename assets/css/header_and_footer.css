@@ -63,25 +63,21 @@ header {
         .identity h1 {
         font-size: 3rem;
         }
-
-        .identity .info {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 0.8rem;
-        margin-left: 6rem;
+    
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 0.8rem;
         }
 
-        .identity .info p {
-        flex: 0.4 1;
-        justify-content: center;
-        }
-
-        .identity .info a {
+        .info p {
         display: inline-block;
-        justify-self: center;
+        justify-content: center;
+        flex-basis: 300px;
+        padding-left: 4rem;
+        padding-bottom: 0.5rem;
         }
-
 
 /* Footer */
 
@@ -99,7 +95,7 @@ header {
     justify-self: center;
     padding: 0.5rem 0;
     }
-    
+
     footer i:hover {
     opacity: 0.8;
     }
