@@ -1,0 +1,78 @@
+main {
+  display: flex;
+}
+
+/* Aside */
+
+.aside {
+  background-color: var(--grey);
+  display: inline-block;
+  padding: 2rem 3rem;
+  width: 33.3333%;
+}
+
+    aside div {
+      display: flex;
+      justify-content: space-between;
+      line-height: 2rem;
+    }
+
+    aside h3, aside p {
+      display: inline-block;
+    }
+
+    aside i {
+      color: var(--blue);
+    }
+
+
+/* Article */
+
+.articles {
+  background-color: var(--white);
+  padding: 2rem 3rem;
+  width: 66.6666%;
+}
+
+    article div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+      font-size: 1rem;
+    }
+
+    article div p {
+      color: var(--black);
+      font-style: italic;
+      font-size: 0.8rem;
+    }
+    article div span, article div p {
+      flex: 1 1 300px;
+    }
+
+    article div .time {
+      color: var(--blue);
+      font-style: normal;
+      justify-items: flex-end;
+    }
+
+      article div .time p {
+        color: var(--blue);
+        font-style: normal;
+      }
+
+
+/* Special classes */
+
+.profile p {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.degree:hover, .stage:hover, .job:hover {
+  border-left: solid var(--blue) 5px;
+  background-color: var(--light-grey);
+  padding: 0.5rem;
+}

@@ -1,0 +1,105 @@
+/* Background */
+
+header, footer {
+  background-color: var(--blue);
+}
+
+
+/* Header - generals */
+
+header {
+  display: flex;
+}
+
+    h1, header h2, header p, header a, header i {
+    color: var(--white);
+    border: 0;
+    justify-content: center;
+    align-content: center;
+    }
+
+
+    /* Header - picture profile */
+
+        header img {
+        margin: 2rem 3rem;
+        display: inline-block;
+        object-fit: scale-down;
+        max-width: 150px;
+        max-height: 150px;
+        border: solid var(--white) 5px;
+        border-radius: 50%;
+        }
+
+        .picture-profile {
+        display: flex;
+        width: 33.3333%;
+        justify-content: center;
+        }
+
+        .picture-profile a:hover {
+        cursor: zoom-in;
+        }
+
+    /* Header identity part */
+
+        .identity {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 66.6666%;
+        }
+
+        .identity i {
+        margin-right: 0.5rem;
+        }
+
+        .identity h1, .identity h2 {
+        text-align: center;
+        padding: 0.3rem 0;
+        }
+
+        .identity h1 {
+        font-size: 3rem;
+        }
+
+        .identity .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0.8rem;
+        margin-left: 6rem;
+        }
+
+        .identity .info p {
+        flex: 0.4 1;
+        justify-content: center;
+        }
+
+        .identity .info a {
+        display: inline-block;
+        justify-self: center;
+        }
+
+
+/* Footer */
+
+    footer {
+    color: var(--white);
+    padding: 1rem;
+    }
+
+    footer i {
+    padding: 1rem;
+    }
+
+    footer .icon, footer p {
+    font-style: italic;
+    justify-self: center;
+    padding: 0.5rem 0;
+    }
+    
+    footer i:hover {
+    opacity: 0.8;
+    }
