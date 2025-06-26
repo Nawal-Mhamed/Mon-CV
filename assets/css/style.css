@@ -16,7 +16,6 @@ a {
   max-width: 1160px;
   justify-self: center;
   background-color: var(--light-grey);
-  padding-bottom: 2rem;
 }
 
 header, aside, main, footer {
