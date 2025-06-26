@@ -66,6 +66,8 @@ main {
 .profile p {
   text-indent: 2rem;
   text-align: justify;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .degree:hover, .stage:hover, .job:hover {
