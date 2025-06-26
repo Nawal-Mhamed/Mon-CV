@@ -72,4 +72,5 @@ main {
   border-left: solid var(--blue) 5px;
   background-color: var(--light-grey);
   padding: 0.5rem;
+  transition: all 0.3s;
 }
