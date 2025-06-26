@@ -1,0 +1,109 @@
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    header, main, footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section, div, .aside, .articles {
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .picture-profile, .info p {
+        display: block;
+        justify-self: center;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .picture-profile img {
+        display: block;
+        justify-self: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (min-width: 481px) and (max-width:767px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .picture-profile img {
+        display: block;
+        justify-self: center;
+    }
+
+    .picture-profile {
+        display: block;
+        justify-self: center;
+        width: 100%;
+        padding: 0;    }
+
+    .info {
+        margin-left: 3rem;
+    }
+
+    .info p {
+        padding-left: 3rem;
+        padding-right: 1rem;
+        align-self: center;
+    }
+
+    .identity {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .aside {
+        width: 50%;
+    }
+
+    .articles {
+        width: 50%;
+    }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    
+    
+    .info {
+        flex-direction: row;
+        margin-left: 2rem;
+    }
+
+    .info p {
+        padding-left: 1rem;
+        flex-basis: 250px;
+    }
+
+    .aside, .picture-profile {
+        width: 40%;
+    }
+
+    .articles, .identity {
+        width: 60%;
+    }
+
+    .degree, .stage, .job  {
+        flex-direction: column;
+    }
+
+    article div p:last-of-type {
+        flex-basis: 0;
+    }
+}
